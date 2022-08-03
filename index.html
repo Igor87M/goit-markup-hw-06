@@ -452,10 +452,8 @@
               <input
                 id="client-name-input"
                 class="form-input"
-                type="name"
+                type="text"
                 name="client-name"
-                pattern="[A-Za-z]{1,32}"
-                required
                 title="Kventin Tarantino"
               />
               <span class="modal-form-icon">
@@ -500,7 +498,11 @@
             </span>
             <label class="form-field texterea">
               Комментарий
-              <textarea class="form-input-textarea" name="" placeholder="Введите текст"></textarea>
+              <textarea
+                class="form-input-textarea"
+                name="comments"
+                placeholder="Введите текст"
+              ></textarea>
             </label>
             <label class="client-policy-text" for="client-policy">
               <input
