@@ -1156,6 +1156,11 @@ p {
 }
 
 
+.client-policy-check:checked {
+    transition: border var(--duration-cubic);
+}
+
+
 .client-policy-check:checked+.modal-form-check {
     border: none;
 }
@@ -1168,8 +1173,7 @@ p {
 
 
 
-.client-policy-check:focus+.modal-form-check{
-    outline: 1px solid rgba(33, 150, 243, 1);
+.client-policy-check:focus + .modal-form-check {
+    
+    outline: 1px  solid rgba(33, 150, 243, 1);
 }
-
-
